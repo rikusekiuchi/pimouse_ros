@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 import rospy, unittest, rostest
-  3 import rosnode
-  4 import time
-  5 from std_msgs.msg import UInt16
+import rosnode
+import time
+from std_msgs.msg import UInt16
 
 class BuzzerTest(unittest.TestCase):
     def test_node_exit(self):
